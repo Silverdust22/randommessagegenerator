@@ -1,0 +1,96 @@
+html{
+    font-size: 16px;
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+}
+
+body{
+    background-color: antiquewhite;
+}
+    
+img{
+    width: 70vw;
+    height:auto;
+}
+
+#img_div{
+    position:relative;
+    width: 70vw;
+    left : 15vw;
+}
+
+#hello{
+    margin-left:23vw;
+    position:absolute;
+    bottom:2vw;
+    color:brown;
+    font-size: 1.2rem;
+    background-color: bisque;
+    border : .2rem solid whitesmoke;
+    border-radius: .5rem;
+}
+
+#click{
+    cursor: pointer;
+    position:absolute;
+    bottom: -3vw;
+    margin-left: 35vw;
+    color:brown;
+    background-color: bisque;
+    border : .2rem solid whitesmoke;
+    border-radius: .5rem;   
+}
+
+@media only screen and (max-width: 640px){
+   #img_div{
+    position:relative;
+    top: 10vw;
+    left : 10vw;
+    width: 80vw;
+    }
+
+    img{
+    width: 80vw;
+    height: auto;
+    } 
+
+    #hello{
+    margin-left: 1vw;
+    padding: 2vw;
+    position: relative;
+    top: 2vw;
+    font-size: 1.2rem;
+  }
+
+  #click{
+    position:absolute;
+    bottom: -13vw;
+    margin-left: 28vw;
+    
+}
+}
+    /*media query for mobile ends*/
+  
+  /*media query for tablet---------------------------------------------------------------*/
+  @media only screen and (min-width: 641px) and (max-width: 850px){ 
+  
+    #hello{
+    margin-left: 1vw;
+    padding: 2vw;
+    position: relative;
+    top: 2vw;
+    font-size: 1.2rem;
+  }
+
+  #click{
+    position:absolute;
+    bottom: -10vw;
+    margin-left: 28vw;
+}
+}
+
