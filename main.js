@@ -1,4 +1,4 @@
- const generaterandomword = wordlength => Math.floor(Math.random() * wordlength)
+ const generaterandomword = wordlength => Math.floor(Math.random() * wordlength);
 
 
 function operatebutton(){
