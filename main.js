@@ -1,6 +1,5 @@
- const generaterandomword = wordlength =>{
-    return Math.floor(Math.random() * wordlength)
-}
+ const generaterandomword = wordlength => Math.floor(Math.random() * wordlength)
+
 
 function operatebutton(){
 const phrases = {
